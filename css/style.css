@@ -5,15 +5,13 @@ body {
     padding: 0;
 }
 
-body {
+.title {
+    height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-.title {
     line-height: 100px;
     font-size: 30px;
 }
@@ -22,4 +20,32 @@ body {
     color: white;
     text-align: center;
     vertical-align: middle;
+}
+
+.journey {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/journey.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.journey-title {
+    color: white;
+    text-align: center;
+}
+
+.dates {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/dates.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.dates-title {
+    color: white;
+    text-align: center;
 }
